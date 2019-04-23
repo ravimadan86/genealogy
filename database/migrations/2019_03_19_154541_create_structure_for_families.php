@@ -19,7 +19,7 @@ class CreateStructureForFamilies extends StructureMigration
     ];
 
     protected $menu = [
-        'name' => 'Family', 'icon' => 'fa-book', 'route' => 'family.index', 'order_index' => 999, 'has_children' => false
+        'name' => 'Family', 'icon' => 'user-tie', 'route' => 'family.index', 'order_index' => 999, 'has_children' => false
     ];
 
     protected $parentMenu = '';
